@@ -123,13 +123,13 @@
           </div>
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
-              Tengo 22 años y estudio en la Facultad de Ingeniería de la Universidad de Buenos Aires. Mi interés por la tecnología surgió durante la adolescencia al tomar cursos de programación en Salta, lo que definió mi camino profesional. En la UBA he explorado áreas como algoritmos, arquitectura de software y desarrollo de sistemas, consolidando mi enfoque en soluciones eficientes y escalables.
+              Tengo 23 años y estudio en la Facultad de Ingeniería de la Universidad de Buenos Aires. Mi interés por la tecnología surgió durante la adolescencia al tomar cursos de programación en Salta, lo que definió mi camino profesional. En la UBA he explorado áreas como algoritmos, arquitectura de software y desarrollo de sistemas, consolidando mi enfoque en soluciones eficientes y escalables.
             </p>
             <p class="about-wrapper__info-text">
               Este portfolio incluye trabajos prácticos universitarios donde apliqué estructuras de datos, patrones de diseño y bases de datos. Muchos son proyectos colaborativos desarrollados con Git y documentación detallada, demostrando cómo traslado conceptos teóricos a soluciones prácticas. Busco oportunidades para seguir creciendo profesionalmente mientras completo mi formación.
             </p>
             <span class="about-wrapper__cta">
-              <a href="https://drive.google.com/file/d/1KCBcFzJBjuv9FtS2R8gZCSM6MTv1SOHL/view?usp=sharing" class="cta-btn cta-btn--resume" target="_blank">Curriculum</a>
+              <a href="https://drive.google.com/file/d/1V4nHcdq85D1WHtWny5hbBlImDisrfox_/view?usp=sharing" class="cta-btn cta-btn--resume" target="_blank">Curriculum</a>
             </span>
           </div>
         </div>
@@ -146,7 +146,131 @@
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">MiniKV</h3>
+              <div class="tech-stack">
+                <span class="tech-pill">Rust</span>
+              </div>
+              <p class="project-wrapper__text-info">
+                Herramienta de línea de comandos para gestionar un almacén de datos clave-valor con persistencia en disco, funcionalidad de log y snapshot.
+              </p>
+              <p class="project-wrapper__text-info">
+                Trabajo práctico universitario desarrollado en Rust con enfoque en la gestión eficiente de datos. Implementé un sistema de almacenamiento persistente utilizando archivos, con un mecanismo de log para registrar operaciones y snapshots para optimizar el rendimiento. El proyecto se diseñó para ser robusto y escalable, aplicando principios de diseño de software y manejo de errores.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/lautiland/miniKV"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero"
+                  >Repositorio</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/lautiland/miniKV" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/miniKV.png"
+                    class="img-fluid border"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">File Transfer</h3>
+              <div class="tech-stack">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Mininet</span>
+              </div>
+              <p class="project-wrapper__text-info">
+                Protocolo de transferencia de archivos para redes con perdida de paquetes.
+              </p>
+              <p class="project-wrapper__text-info">
+                Trabajo práctico universitario grupal desarrollado en Python utilizando Mininet para simular una red con pérdida de paquetes. Implementamos un protocolo de transferencia de archivos que garantiza la integridad y confiabilidad de los datos a pesar de las condiciones adversas de la red. El proyecto incluyó la gestión de retransmisiones, control de flujo y manejo de errores, demostrando cómo aplicar conceptos de redes y protocolos en un entorno simulado.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/fernandezfacu/tp1-redes-file-transfer"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero"
+                  >Repositorio</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/fernandezfacu/tp1-redes-file-transfer" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/file-transfer.png"
+                    class="img-fluid border"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">SDN Openflow</h3>
+              <div class="tech-stack">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Mininet</span>
+                <span class="tech-pill">OpenFlow</span>
+              </div>
+              <p class="project-wrapper__text-info">
+                Simulador de red definida por software utilizando el protocolo OpenFlow para gestionar el tráfico de red.
+              </p>
+              <p class="project-wrapper__text-info">
+                Trabajo práctico universitario de desarrollo colaborativo en Python utilizando Mininet para simular una red definida por software (SDN) con OpenFlow. Implementamos un controlador SDN que gestiona el tráfico de red, aplicando políticas de enrutamiento dinámico y control de acceso. El proyecto demostró cómo utilizar el protocolo OpenFlow para programar la red y optimizar el rendimiento, aplicando conceptos de redes y SDN en un entorno simulado.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/fernandezfacu/tp2-redes-openflow"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero"
+                  >Repositorio</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/fernandezfacu/tp2-redes-openflow" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/openflow.png"
+                    class="img-fluid border"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Scouteando</h3>
+              <div class="tech-stack">
+                <span class="tech-pill">Angular</span>
+                <span class="tech-pill">HTML/CSS</span>
+              </div>
               <p class="project-wrapper__text-info">
                 Página web estilo blog acerca del movimiento scout que muestra variedad de artículos con sus respectivas categorías.
               </p>
@@ -154,15 +278,16 @@
                 Proyecto personal que desarrollo de forma autodidacta, iniciado con HTML, CSS y JavaScript, y posteriormente migrado a Angular. Actualmente estoy implementando un sistema de caché para agilizar la carga de artículos y mejorando el responsive design. El contenido de los artículos puede ser consultado localmente, a través de la API de Google Drive y planeo en el futuro utilizar una base de datos para su almacenamiento.
               </p>
               <div class="project-wrapper__text-btns">
-                <a
-                  href="https://github.com/lautiland/scouteando"
+                <a href="https://scouteando.net.ar/"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero"
-                  >Repositorio</a
-                >
-                <a href="https://scouteando.net.ar/" target="_blank" class="cta-btn text-color-main"
                   >Ir al sitio</a
+                >
+                <a href="https://github.com/lautiland/scouteando"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  >Repositorio</a
                 >
               </div>
             </div>
@@ -187,23 +312,30 @@
           <article class="row">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Algo Roma</h3>
+              <div class="tech-stack">
+                <span class="tech-pill">Java</span>
+                <span class="tech-pill">Maven</span>
+                <span class="tech-pill">MVC</span>
+              </div>
               <p class="project-wrapper__text-info">
                 Juego de tablero por turnos con temática de gladiadores y casilleros con modificadores.
               </p>
               <p class="project-wrapper__text-info">
                 Trabajo práctico universitario desarrollado colaborativamente en Java con Maven, aplicando el patrón MVC. Implementamos Test Driven Development con énfasis en la interacción entre objetos, diseñando un sistema de modificadores dinámico para algunos casilleros. La arquitectura incluye diagramas UML de clase y secuencia que documentan las mecánicas centrales.
               <div class="project-wrapper__text-btns">
-                <a
-                  href="https://github.com/lautiland/TP2-ALGO3-ALGOROMA"
+                <a href="https://github.com/lautiland/TP2-ALGO3-ALGOROMA/releases/latest"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero"
+                  >Última versión</a
+                >
+                <a
+                  href="https://github.com/lautiland/TP2-ALGO3-ALGOROMA"
+                  target="_blank"
+                  class="cta-btn text-color-main"
                   >Repositorio</a
                 >
                 
-                <a href="https://github.com/lautiland/TP2-ALGO3-ALGOROMA/releases/" target="_blank" class="cta-btn text-color-main"
-                  >Descargar código</a
-                >
               </div>
             </div>
 
@@ -230,6 +362,11 @@
           <article class="row">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Algo Hoot</h3>
+              <div class="tech-stack">
+                <span class="tech-pill">Java</span>
+                <span class="tech-pill">Maven</span>
+                <span class="tech-pill">MVC</span>
+              </div>
               <p class="project-wrapper__text-info">
                 Juego de preguntas por turnos con distintas tipos de pruebas, categorías y modificadores.
               </p>
@@ -237,15 +374,17 @@
                 Trabajo práctico universitario colaborativo desarrollado con Java Maven bajo arquitectura MVC. Implementamos Test Driven Development para crear el proyecto, aplicando patrones de diseño que gestionan la diversidad de pruebas y modificadores. La documentación con diagramas UML de clase y secuencia modela respalda la arquitectura.
               </p>
               <div class="project-wrapper__text-btns">
-                <a
-                  href="https://github.com/lautiland/TP2-ALGO3-ALGOHOOT"
+                <a href="https://github.com/lautiland/TP2-ALGO3-ALGOHOOT/releases"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero"
-                  >Repositorio</a
+                  >Última versión</a
                 >
-                <a href="https://github.com/lautiland/TP2-ALGO3-ALGOHOOT/releases" target="_blank" class="cta-btn text-color-main"
-                  >Descargar código</a
+                <a
+                  href="https://github.com/lautiland/TP2-ALGO3-ALGOHOOT"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  >Repositorio</a
                 >
               </div>
             </div>
@@ -276,7 +415,7 @@
       <div class="container">
         <h2 class="section-title">Contacto</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">Estoy abierto a propuestas y proyectos laborales, si ves que encajo con el perfil que estás buscando no dudes en contactarme a traves de mi mail personal.</p>
+          <p class="contact-wrapper__text">Estoy abierto a propuestas y proyectos laborales, si ves que encajo con el perfil que estás buscando no dudes en contactarme a traves de mi correo electrónico.</p>
           <a href="mailto:ljovanovics@fi.uba.ar" target="_blank" class="cta-btn cta-btn--resume">Enviar mensaje</a>
         </div>
       </div>

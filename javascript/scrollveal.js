@@ -49,18 +49,18 @@ ScrollReveal().reveal(".about-wrapper__info", {
 });
 
 /* Projects Section */
-ScrollReveal().reveal(".project-wrapper__text", {
-  ...defaultProps,
-  delay: 600,
-  origin: window.innerWidth > 768 ? "left" : "bottom",
-});
+// ScrollReveal().reveal(".project-wrapper__text", {
+//   ...defaultProps,
+//   delay: 600,
+//   origin: window.innerWidth > 768 ? "left" : "bottom",
+// });
 
-ScrollReveal().reveal(".project-wrapper__image", {
-  ...defaultProps,
-  delay: 600,
-  scale: 0.9,
-  origin: window.innerWidth > 768 ? "right" : "bottom",
-});
+// ScrollReveal().reveal(".project-wrapper__image", {
+//   ...defaultProps,
+//   delay: 600,
+//   scale: 0.9,
+//   origin: window.innerWidth > 768 ? "right" : "bottom",
+// });
 
 /* Contact Section */
 ScrollReveal().reveal(".contact-wrapper", {
