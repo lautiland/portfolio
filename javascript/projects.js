@@ -2,16 +2,40 @@ const projects = [
   {
     title: "Smartprinter",
     year: 2026,
-    tags: ["Individual", "Rust", "SQLite"],
+    tags: ["Grupal", "Rust", "SQLite"],
     descKey: "smartprinter",
-    links: [{ url: "#", label: "repositorio" }],
+    links: [],
+  },
+  {
+    title: "ufw-report",
+    year: 2026,
+    tags: ["Personal", "Rust"],
+    descKey: "ufw-report",
+    links: [
+      {
+        url: "https://github.com/lautiland/ufw-report",
+        label: "repositorio",
+      },
+    ],
   },
   {
     title: "Rootcause",
     year: 2026,
     tags: ["Grupal", "Go", "HTML/CSS"],
     descKey: "rootcause",
-    links: [{ url: "https://github.com/GDSI-rootcause", label: "repositorio" }],
+    links: [],
+  },
+  {
+    title: "MiniKV",
+    year: 2026,
+    tags: ["Personal", "Rust"],
+    descKey: "minikv",
+    links: [
+      {
+        url: "https://github.com/lautiland/miniKV",
+        label: "repositorio",
+      },
+    ],
   },
   {
     title: "File Transfer",

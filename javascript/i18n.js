@@ -131,9 +131,17 @@ var translations = {
       es: "Aplicación de escritorio para gestión y monitoreo de impresoras 3D del laboratorio de manufactura aditiva de la FIUBA, resolviendo la comunicación con los controladores vía ingeniería inversa sobre USB y una arquitectura síncrona multihilo para el control de estado en tiempo real, con persistencia en SQLite.",
       en: "Desktop application for managing and monitoring 3D printers at the FIUBA additive manufacturing lab, reverse-engineering USB controller communication and implementing a synchronous multithreaded architecture for real-time state control with SQLite persistence.",
     },
+    "ufw-report": {
+      es: "Herramienta TUI para reportes de UFW (Uncomplicated Firewall) que permite visualizar los paquetes rechazados por las reglas de firewall de manera interactiva desde la terminal.",
+      en: "TUI tool for UFW (Uncomplicated Firewall) reports that allows visualizing rejected packets by firewall rules interactively from the terminal.",
+    },
     rootcause: {
       es: "Plataforma de observabilidad full-stack para centralizar y analizar logs y métricas, con backend en Go dividido en app central y SDK; se implementó autenticación de usuarios, las notificaciones por correo y la lógica del SDK para que desarrolladores externos integren el logging en sus propios servicios.",
       en: "Full-stack observability platform for centralizing and analyzing logs and metrics, with a Go backend split into a central app and SDK; we implemented user authentication, email notifications and the SDK logic for external developers to integrate logging into their own services.",
+    },
+    minikv: {
+      es: "Herramienta CLI para guardado de datos clave valor con persistencia en archivos, se agregó la funcionalidad de hacer snapshots del estado actual y un registro de movimientos por logging.",
+      en: "CLI tool for storing key-value data with file persistence and a logging system, with snapshotting and movement logging functionality added.",
     },
     fileTransfer: {
       es: "Protocolo de transferencia de archivos confiable sobre redes con pérdida de paquetes, simulado con Mininet, resolviendo retransmisiones, control de flujo y manejo de errores para garantizar la integridad de los datos.",
