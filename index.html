@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lautaro Jovanovics | Portfolio</title>
+        <meta
+            name="description"
+            content="Portfolio de Lautaro Jovanovics — Estudiante de Ingeniería en Informática, FIUBA"
+        />
+        <meta
+            name="keywords"
+            content="Lautaro, desarrollador, ingeniería informática, FIUBA, Rust, Go, Java, Python"
+        />
+        <link rel="icon" type="image/png" href="./assets/logo-tab.png" />
+        <meta name="theme-color" content="#14140F" />
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:url"
+            content="https://lautiland.github.io/portfolio/"
+        />
+        <meta property="og:title" content="Lautaro Jovanovics | Portfolio" />
+        <meta
+            property="og:description"
+            content="Portfolio de Lautaro Jovanovics — Estudiante de Ingeniería en Informática, FIUBA"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/main.css" />
+    </head>
+    <body>
+        <div class="pf-root">
+            <div class="pf-terminal" id="pfTerminal">
+                <div id="pfTermOutput"></div>
+                <div class="pf-term-input-row">
+                    <span class="pf-term-prompt-label"
+                        >visitante@portfolio:~$</span
+                    >
+                    <input
+                        class="pf-term-input"
+                        id="pfTermInput"
+                        type="text"
+                        autocomplete="off"
+                        spellcheck="false"
+                    /><span class="pf-term-cursor">█</span>
+                </div>
+                <p class="pf-term-hint" data-i18n-html="terminal.hint">
+                    escribí <strong>help</strong> para ver los comandos
+                    disponibles
+                </p>
+            </div>
+
+            <div class="pf-header">
+                <div class="pf-avatar">LJ</div>
+                <div>
+                    <h1 class="pf-name">Lautaro Jovanovics</h1>
+                    <p class="pf-role" data-i18n="header.role">
+                        Estudiante de Ingeniería en Informática · Software
+                        Developer
+                    </p>
+                </div>
+            </div>
+
+            <div class="pf-links">
+                <a
+                    href="{{CV_URL}}"
+                    target="_blank"
+                    rel="noopener"
+                    data-i18n="links.cv"
+                    >CV público</a
+                >
+                <a
+                    href="https://github.com/lautiland"
+                    target="_blank"
+                    rel="noopener"
+                    >GitHub</a
+                >
+                <a
+                    href="https://www.linkedin.com/in/lautarojovanovics/"
+                    target="_blank"
+                    rel="noopener"
+                    >LinkedIn</a
+                >
+                <a href="mailto:ljovanovics@fi.uba.ar">Email</a>
+            </div>
+
+            <div class="pf-bio">
+                <p class="pf-quote">
+                    "Any fool can write code that a computer can understand.
+                    Good programmers write code that humans can understand." —
+                    Martin Fowler, 2008
+                </p>
+                <p class="pf-section-label" data-i18n="bio.label">sobre_mi</p>
+                <p data-i18n="bio.p1">
+                    Tengo 23 años y curso cuarto año de Ingeniería en
+                    Informática en la Facultad de Ingeniería de la UBA. Soy de
+                    Salta, donde en la adolescencia tomé mis primeros cursos de
+                    programación, empecé con robótica y después pasé a
+                    programación en C#, un camino que terminó trayéndome a
+                    Buenos Aires para estudiar. Desde entonces fui consolidando
+                    un enfoque en algoritmos, arquitectura de software y
+                    desarrollo de sistemas, buscando siempre trasladar la teoría
+                    a soluciones eficientes y escalables.
+                </p>
+                <p data-i18n="bio.p2">
+                    Este portfolio reúne trabajos prácticos universitarios y
+                    proyectos personales donde aplico estructuras de datos,
+                    patrones de diseño y arquitectura de sistemas en lenguajes
+                    como Rust, Go y Python. La mayoría son desarrollos
+                    colaborativos con Git y documentación técnica detallada, y
+                    en ellos aprendí a trabajar en equipo bajo metodologías
+                    ágiles, algo en lo que me siento cómodo. Estoy buscando una
+                    pasantía o primer empleo que me permita seguir formándome
+                    académicamente mientras me desarrollo profesionalmente.
+                </p>
+            </div>
+
+            <p class="pf-section-label" data-i18n="sections.projects">
+                proyectos
+            </p>
+
+            <div class="pf-log" id="pfLog"></div>
+
+            <div class="pf-footer">
+                <span>Buenos Aires, Argentina</span>
+                <span data-i18n="footer.update"
+                    >última actualización · 2026</span
+                >
+            </div>
+        </div>
+
+        <script src="./javascript/i18n.js"></script>
+        <script src="./javascript/projects.js"></script>
+        <script src="./javascript/main.js"></script>
+    </body>
+</html>
