@@ -22,7 +22,7 @@ jobs:
 
       - name: Substitute CV_URL
         run: |
-          sed -i "s|{{CV_URL}}|${{ vars.CV_URL }}|g" index.html
+          sed -i "s|{{CV_URL}}|${{ vars.CV_URL }}|g" index.html javascript/main.js
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
